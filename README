@@ -1,5 +1,8 @@
 Installation
 ===
+Install MacVim for OSX
+Add mvim to ~/bin
+Add ~/bin to PATH
 
 cd
 git clone git@github.com:rangsikitpho/dotfiles.git
