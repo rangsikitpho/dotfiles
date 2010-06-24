@@ -107,3 +107,7 @@ mkdir -p $dir
 
 # probably not a best practice, but works for a specific project
 alias deliver='git push && cap deploy'
+
+# Login to Cornice Admin Servers
+alias cornice_admin='ssh -i ~/.ssh/admin-server.pem ubuntu@ec2-204-236-193-46.compute-1.amazonaws.com'
+alias cornice_admin_qa='ssh -i ~/.ssh/admin-server.pem ubuntu@ec2-184-73-82-190.compute-1.amazonaws.com'
