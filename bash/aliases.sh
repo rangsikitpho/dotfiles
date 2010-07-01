@@ -111,3 +111,9 @@ alias deliver='git push && cap deploy'
 # Login to Cornice Admin Servers
 alias cornice_admin='ssh -i ~/.ssh/admin-server.pem ubuntu@ec2-204-236-193-46.compute-1.amazonaws.com'
 alias cornice_admin_qa='ssh -i ~/.ssh/admin-server.pem ubuntu@ec2-184-73-82-190.compute-1.amazonaws.com'
+
+# Login to Databases
+alias sv_dbm1_stg='mysql -u amsrv -h sv_dbm1_stg.socialvibe.com -p SocialVibe_staging'
+alias sv_dbm1='mysql -u amsrv -h sv_dbm1.socialvibe.com -p SocialVibe_production'
+alias rep_dbm1='mysql -u amsrv -h rep_dbm1.socialvibe.com -p ArchetypeReporting_production'
+alias svnet_dbm1='mysql -u amsrv -h svnet_dbm1.socialvibe.com -p socialvibe_network_production'
