@@ -117,3 +117,7 @@ alias sv_dbm1_stg='mysql -u amsrv -h sv_dbm1_stg.socialvibe.com -p SocialVibe_st
 alias sv_dbm1='mysql -u amsrv -h sv_dbm1.socialvibe.com -p SocialVibe_production'
 alias rep_dbm1='mysql -u amsrv -h rep_dbm1.socialvibe.com -p ArchetypeReporting_production'
 alias svnet_dbm1='mysql -u amsrv -h svnet_dbm1.socialvibe.com -p socialvibe_network_production'
+alias cornice_database_master='mysql -u amsrv -h 184.73.20.231 -p cornice_production'
+alias cornice_database_slave_1='mysql -u amsrv -h 174.129.179.62 -p cornice_production'
+alias cornice_database_slave_2='mysql -u amsrv -h 184.73.50.150 -p cornice_production'
+alias cornice_database_slave_3='mysql -u amsrv -h 204.236.246.188 -p cornice_production'
