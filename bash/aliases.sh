@@ -121,3 +121,5 @@ alias cornice_database_master='mysql -u amsrv -h 184.73.20.231 -p cornice_produc
 alias cornice_database_slave_1='mysql -u amsrv -h 174.129.179.62 -p cornice_production'
 alias cornice_database_slave_2='mysql -u amsrv -h 184.73.50.150 -p cornice_production'
 alias cornice_database_slave_3='mysql -u amsrv -h 204.236.246.188 -p cornice_production'
+alias cornice_database_slave_4='mysql -u amsrv -h 174.129.81.206 -p cornice_production'
+alias cornice_qa_database_master='mysql -u amsrv -h 184.73.90.159 -p cornice_qa'
