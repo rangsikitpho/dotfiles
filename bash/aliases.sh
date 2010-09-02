@@ -109,7 +109,7 @@ mkdir -p $dir
 alias deliver='git push && cap deploy'
 
 # Login to Cornice Admin Servers
-alias cornice_admin='ssh -i ~/.ssh/admin-server.pem ubuntu@ec2-204-236-193-46.compute-1.amazonaws.com'
+alias cornice_admin='ssh -i ~/.ssh/admin-server.pem ubuntu@ec2-67-202-13-212.compute-1.amazonaws.com'
 alias cornice_admin_qa='ssh -i ~/.ssh/admin-server.pem ubuntu@ec2-67-202-27-50.compute-1.amazonaws.com'
 
 # Login to Databases
