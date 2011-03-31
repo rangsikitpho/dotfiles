@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/chaodyne/Movies/peepcode-046-vim-i-mov/peepcode-046-vim-i-code/tutorial-apache-files'
 let g:netrw_dirhist_2='/Users/chaodyne/Documents/repos/cornice_backend'
 let g:netrw_dirhist_3='/Users/chaodyne/Documents/repos/cornice_backend/app'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/Users/chaodyne/Documents'
 let g:netrw_dirhist_6='/Users/chaodyne/scratch/codebreaker'
 let g:netrw_dirhist_7='/Users/chaodyne/scratch/codebreaker/features'
 let g:netrw_dirhist_8='/Users/chaodyne/scratch/codebreaker'
+let g:netrw_dirhist_9='/Library/Ruby/Gems/1.8/gems/gemedit-1.0.0'

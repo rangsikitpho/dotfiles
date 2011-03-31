@@ -3,6 +3,8 @@ PATH="/opt/local/sbin:/opt/local/lib/postgresql83/bin:/usr/local/bin:/opt/local/
 export PATH
 export VMAIL_VIM=mvim
 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+
 # include .bashrc
 source ~/.bashrc
 

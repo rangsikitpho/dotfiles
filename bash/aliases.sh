@@ -120,4 +120,4 @@ alias svnet_dbm1='mysql -u amsrv -h svnet_dbm1.socialvibe.com -p socialvibe_netw
 alias cornice_database_master='mysql -u amsrv -h ec2-50-16-201-253.compute-1.amazonaws.com -p cornice_production'
 alias cornice_database_slave_cornice='mysql -u amsrv -h ec2-50-16-208-17.compute-1.amazonaws.com -p cornice_production'
 alias cornice_database_slave_svnetwork='mysql -u amsrv -h ec2-50-16-209-254.compute-1.amazonaws.com -p cornice_production'
-alias cornice_qa_database_master='mysql -u amsrv -h 184.73.90.159 -p cornice_qa'
+alias cornice_qa_database_master='mysql -u amsrv -h 50.17.66.67 -p cornice_qa'
