@@ -109,7 +109,7 @@ mkdir -p $dir
 alias deliver='git push && cap deploy'
 
 # Login to Cornice Admin Servers
-alias cornice_admin='ssh -i ~/.ssh/admin-server.pem ubuntu@ec2-67-202-13-212.compute-1.amazonaws.com'
+alias cornice_admin='ssh -i ~/.ssh/admin-server.pem root@ec2-67-202-13-212.compute-1.amazonaws.com'
 alias cornice_admin_qa='ssh -i ~/.ssh/admin-server.pem ubuntu@ec2-67-202-27-50.compute-1.amazonaws.com'
 alias cornice_admin_integration='ssh -i ~/.ssh/admin-server.pem root@ec2-50-17-65-171.compute-1.amazonaws.com'
 
@@ -122,3 +122,4 @@ alias cornice_database_master='mysql -u amsrv -h ec2-50-16-201-253.compute-1.ama
 alias cornice_database_slave_cornice='mysql -u amsrv -h ec2-50-16-208-17.compute-1.amazonaws.com -p cornice_production'
 alias cornice_database_slave_svnetwork='mysql -u amsrv -h ec2-50-16-209-254.compute-1.amazonaws.com -p cornice_production'
 alias cornice_qa_database_master='mysql -u amsrv -h 50.17.66.67 -p cornice_qa'
+alias cornice_archive_database_slave='mysql -u amsrv -h 50.16.232.91 -p cornice_archive_production'
